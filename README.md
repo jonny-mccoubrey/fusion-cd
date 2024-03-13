@@ -18,5 +18,8 @@
 2. Merge latest **main** branch changes into your branch:  
    **git pull origin main**
 3. Review merge conflicts
-4. Commit changes to your branch
-5. Deploy changes to environment
+4. To mark conflicting files as resolved add them to Git:
+   **git add <file_name>**
+5. Commit changes to your branch:  
+   **git commit -m '<your_commit_message>'**
+6. Deploy changes to environment
