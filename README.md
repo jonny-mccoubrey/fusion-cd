@@ -16,7 +16,7 @@
 ### Updating to latest release
 1. Ensure all of your environment specific changes are committed to your branch
 2. Merge latest **main** branch changes into your branch:  
-   **git fetch origin main:<your_branch_name>**
+   **git pull origin main**
 3. Review merge conflicts
 4. Commit changes to your branch
 5. Deploy changes to environment
